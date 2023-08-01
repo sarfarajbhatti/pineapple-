@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.header{
+    height: 100px;
+    background-color: lavender;
+}
+
+.header h2{
+    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    line-height: 100px;
+    font-size: 50px;
+    margin-left: 200px;
+    color: goldenrod;
+}
+h2:hover{
+    text-shadow: 2px 3px gold;
+}
+.menu{
+    height: 50px;
+    background-color: gold;
+}
+ul{
+    margin-left: 150px;
+    display: inline-block;
+}
+ul li{
+    display: inline;
+    line-height: 50px;
+    margin-left: 50px;
+
+}
+ul li:hover{
+    background-color: goldenrod;
+    box-shadow: 0px 1px 2px 3px black;
+    padding: 10px;
+}
+input{
+    color: white;
+    padding: 5px;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 200px;
+    background-color: transparent;
+    border: 2px solid gray;
+
+}
+.content{
+    height: 200px;
+    background-color: beige;
+    position: relative;
+}
+h3{
+    position: absolute;
+    margin-left: 200px;
+    top: 20px;
+}
+.content p{
+    position: absolute;
+    top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+button{
+    position: absolute;
+    background-color: brown;
+    margin-right: 200px;
+    padding: 7px;
+    color: aliceblue;
+    bottom: 10px;
+    right: 0;
+    border: 0;
+}
+button:hover{
+    padding: 10px;
+    background-color: darkred;
+    box-shadow: 0px 2px 3px 4px silver;
+}
+.content2{
+    height: 700px;
+    -border: 1px solid red;
+    background-color: beige;
+}
+.sec1{
+    height: 350px;
+    position: relative;
+}
+.sec2{
+    height: 350px;
+    position: relative;
+    -border: 1px solid red;
+}
+h4{
+    font-size: 25px;
+    margin-left: 200px;
+    color: brown;
+}
+.box1{
+    -border: 1px solid red;
+    width: 300px;
+    margin-left: 200px;
+    float: left;
+    height: 350px;
+    position: absolute;
+    top: 50px;
+}
+.box2{
+    -border: 1px solid red;
+    width: 300px;
+    margin-left: 110px;
+    float: left;
+    height: 350px;
+    position: absolute;
+    right: 600px;
+    top: 50px;
+    
+}
+.box3{
+    -border: 1px solid red;
+    width: 300px;
+    float: left;
+    margin-left: 110px;
+    height: 350px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.box4{
+    width: 300px;
+    float: left;
+    margin-left: 200px;
+    height: 350px;
+}
+.box5{
+    width: 300px;
+    float: left;
+    margin-left: 110px;
+    height: 350px;
+}
+.box6{
+    width: 300px;
+    float: left;
+    margin-left: 110px;
+    height: 350px;
+}
+i{
+    color:orange;
+}
+.btn button{
+    position: absolute;
+    background-color: brown;
+    color: aliceblue;
+    bottom: 10px;
+    right: 0;
+}
+.content3{
+    height: 300px;
+    background-color: gold;
+}
+.box7{
+    height: 100%;
+    width: 270px;
+    margin-left: 200px;
+    -border: 1px solid red;
+    float: left;
+}
+h5{
+    font-size: 25px;
+    color: crimson;
+    margin-bottom: 20px;
+}
+p{
+   color: gray;
+   font-size: 13px;
+}
+.box8{
+    margin-left: 10px;
+    height: 100%;
+    width: 270px;
+    -border: 1px solid red;
+    float: left;
+}
+.box9{
+    margin-left: 10px;
+    height: 100%;
+    width: 270px;
+    -border: 1px solid red;
+    float: left;
+}
+.box10{
+    margin-left: 10px;
+    height: 100%;
+    width: 270px;
+    -border: 1px solid red;
+    float: left;
+}
+.footer{
+    height: 60px;
+    background-color: goldenrod;
+}
+.footer h6{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 200px;
+    display: inline-block;
+    line-height: 60px;
+}
+ .footer ul{
+    float: right;
+    margin-right: 200px;
+    display: inline-block;
+}
+.footer ul li{
+    color: aliceblue;
+    display: inline;
+    line-height: 60px;
+    margin-left: 20px;
+
+}
